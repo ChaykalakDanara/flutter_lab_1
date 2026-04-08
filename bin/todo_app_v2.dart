@@ -112,7 +112,7 @@ bool handleCommand(TodoRepository repo, String input) {
         deleteCommand(repo, parts);
         break;
       case "exit":
-        print("Выхад из программы");
+        print("Выход из программы");
         return true;
       default:
         print("Неизвестная команда");
