@@ -26,7 +26,7 @@ void main() {
   printMenu();
   while (true) {
     stdout.write("> ");
-    String? input = stdin.readLineSyns();
+    String? input = stdin.readLineSync();
     if (input == null) {
       continue;
     }
